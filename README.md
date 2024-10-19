@@ -92,7 +92,7 @@ The larger the average number of rooms, the higher the average home price, refle
 * Exceptions where crime rates ar quite high ( around 10%) but house prices are stillrelatively high. These cases may be affected by other factors such as the value of the house, climate, et
   
 
-Conclution Social security in the Boston area is quite good with crime rates falling mostly below51%. This is a positive sign because house prices are greatly affected by this facture
+Conclution Social security in the Boston area is quite good with crime rates falling mostly below 5%. This is a positive sign because house prices are greatly affected by this facture
 
 
 Conclusion: 
