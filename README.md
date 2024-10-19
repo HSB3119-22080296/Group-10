@@ -94,3 +94,6 @@ The larger the average number of rooms, the higher the average home price, refle
 
 Conclution Social security in the Boston area is quite good with crime rates falling mostly below51%. This is a positive sign because house prices are greatly affected by this facture
 
+
+Conclusion: 
+Through analyzing the above charts, we can see that there are many factors that affect house prices. Understanding these factors is not only useful for investors and buyers but also for policymakers in improving the quality of life in urban areas.
