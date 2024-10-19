@@ -15,7 +15,7 @@ Lê Quý Quỳnh Chi ( 22080305)
    The Boston Housing Dataset Boston Housing Dataset is a famous dataset in the field of machine learning, often used for research and development of regression models. This dataset contains information on 506 neighborhoods within Boston, including characteristics such as real estate value, number of rooms, crime rate, and proximity to factors such as schools and shopping malls. commerce.
 
 
-MEDIAN HOUSE VALUE DISTRIBUTION
+     MEDIAN HOUSE VALUE DISTRIBUTION
 
 ![](image/ảnh1.png)
 
@@ -39,7 +39,7 @@ Analyze:
 
 
 
-MEDIAN HOUSE PRICE
+    MEDIAN HOUSE PRICE
 
 ![](image/ảnh2.png)
 
@@ -60,7 +60,7 @@ There are many outliers at the top of the houses that are not close to the river
 
 
 
-HOUSE PRICED BASED ON NUMBERS OF ROOMS
+  HOUSE PRICED BASED ON NUMBERS OF ROOMS
 
 ![](image/ảnh3.png)
 
@@ -80,7 +80,7 @@ The larger the average number of rooms, the higher the average home price, refle
 
 
 
-HOUSE PRICED BASED ON CRIME RATED
+   HOUSE PRICED BASED ON CRIME RATED
 
 ![](image/ảnh4.png)
 
@@ -90,6 +90,7 @@ HOUSE PRICED BASED ON CRIME RATED
 * In the areas with crime levels of 20% or more have very low house prices (under 10 thousand USD)
 
 * Exceptions where crime rates ar quite high ( around 10%) but house prices are stillrelatively high. These cases may be affected by other factors such as the value of the house, climate, et
+  
 
 Conclution Social security in the Boston area is quite good with crime rates falling mostly below51%. This is a positive sign because house prices are greatly affected by this factrc
 
