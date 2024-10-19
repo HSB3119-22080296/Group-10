@@ -1,5 +1,6 @@
 **Group 10 _ Boston Housing Dataset**
 * Subject: Data Science
+* Lecturer : Emanuelplan
 * Members of group :
   
 Nguyễn Quang Anh ( 22080296)
