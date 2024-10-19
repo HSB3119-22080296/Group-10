@@ -72,7 +72,7 @@ Data cluster: The majority of houses have 5 to 7 rooms and house prices range fr
 
 Exceptions:
 
-There are some notable exceptions where houses have less than 6 rooms but house prices are very high (up to 50k USD). This could be due to other factors such as prime location or special features he househe h
+There are some notable exceptions where houses have less than 6 rooms but house prices are very high (up to 50k USD). This could be due to other factors such as prime location or special features the house 
 
 Conclusion: 
 
@@ -92,5 +92,5 @@ The larger the average number of rooms, the higher the average home price, refle
 * Exceptions where crime rates ar quite high ( around 10%) but house prices are stillrelatively high. These cases may be affected by other factors such as the value of the house, climate, et
   
 
-Conclution Social security in the Boston area is quite good with crime rates falling mostly below51%. This is a positive sign because house prices are greatly affected by this factrc
+Conclution Social security in the Boston area is quite good with crime rates falling mostly below51%. This is a positive sign because house prices are greatly affected by this facture
 
