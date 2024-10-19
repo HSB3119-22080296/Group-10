@@ -1,11 +1,16 @@
 Group 10 _ Boston Housing Dataset
 * Subject: Data Science
-* Member of group :
+* Members of group :
 Nguyễn Quang Anh ( 22080296)
+
 Triệu Anh (22080299)
+
 Nguyễn Tú Anh (22080346)
+
 Nguyễn Khánh Duy (22080310)
+
 Nguyễn Hải Đăng (22080307)
+
 Lê Quý Quỳnh Chi ( 22080305)
 
 
