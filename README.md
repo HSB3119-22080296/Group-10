@@ -23,7 +23,7 @@ Analyze:
 
 * The width of the above data ranges from 5 to 50, This fluctuation spectrum is quite wide, which shows the diverse distribution of house prices in Boston
 
-* Distribution peak: The most popular home prices are between 20 and 25 thousand USD.
+* Distribution peak: The most popular home prices are between 15 and 25 thousand USD.
 
 * Right skew: The graph has a slight right skew, meaning there are a small number of areas with very high home prices, but the majority of home prices are below average.
 
