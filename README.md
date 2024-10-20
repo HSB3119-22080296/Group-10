@@ -20,7 +20,7 @@ Lê Quý Quỳnh Chi ( 22080305)
 
  **Introduce**  
 
-The Boston Housing Dataset Boston Housing Dataset is a famous dataset in the field of machine learning, often used for research and development of regression models. This dataset contains information on 506 neighborhoods within Boston, including characteristics such as real estate value, number of rooms, crime rate, and proximity to factors such as schools and shopping malls. commerce.
+The Boston Housing Dataset Boston Housing Dataset is a famous dataset in the field of machine learning, often used for research and development of regression models. This dataset contains information on 506 neighborhoods within Boston, including characteristics such as real estate value, number of rooms, crime rate,etc
 
 
      MEDIAN HOUSE VALUE DISTRIBUTION
@@ -29,7 +29,7 @@ The Boston Housing Dataset Boston Housing Dataset is a famous dataset in the fie
 
 **Analyze**:
 
-* The width of the above data ranges from 5 to 50, This fluctuation spectrum is quite wide, which shows the diverse distribution of house prices in Boston
+* The width of the above data ranges from 5 to 50, which shows the diverse distribution of house prices in Boston
 
 * Distribution peak: The most popular home prices are between 15 and 25 thousand USD.
 
@@ -57,13 +57,15 @@ Houses near the river (river_proximity = 1) have a significantly higher average 
 
 * **Volatility range:**
 
-Homes not close to the river have a wider price range, with some outliers going outside the box. This may indicate that even though there are some houses that are not close to the river, they still have a high value, possibly due to other factors such as size or quality of the hous.-
+Homes not close to the river have a wider price range, with some outliers going outside the box. This may indicate that even though there are some houses that are not close to the river, they still have a high value, possibly due to other factors such as size or quality of the house.
 
-Homes near rivers have higher average values ​​and less variation than homes not near rivers. This shows that a location near the river can ensure a more stable home va
+Homes near rivers have higher average values ​​and less variation than homes not near rivers. This shows that a location near the river can ensure a more stable home value
 
 * **Outliers:**
 
-There are many outliers at the top of the houses that are not close to the river, which suggests that there are some exceptional houses that command higher prices than the rest in this group. These homes may have other features that compensate for not being close to the river (for example, large size, other good locations, or high-end ameni tieConclusionclude: Proximity to the river is an important factor affecting home prices, and homes near the river often command higher prices. However, house prices not near the river also have large dispersion and may depend on factors other than geographical location.
+There are many outliers at the top of the houses that are not close to the river, which suggests that there are some exceptional houses that command higher prices than the rest in this group. These homes may have other features that compensate for not being close to the river (for example, large size, other good locations, or high-end amenitie
+
+Conclusionclude: Proximity to the river is an important factor affecting home prices, and homes near the river often command higher prices. However, house prices not near the river also have large dispersion and may depend on factors other than geographical location.
 
 
 
