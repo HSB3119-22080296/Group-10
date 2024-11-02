@@ -1,1 +1,108 @@
+# This Python 3 environment comes with many helpful analytics libraries installed
+# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python
+# For example, here's several helpful packages to load
 
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
+# Input data files are available in the read-only "../input/" directory
+# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using "Save & Run All" 
+# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session
+
+
+# improt lir for analysis|
+import pandas as pd 
+import numpy as np 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+# import lir for model building
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import cross_val_score
+
+
+df = pd.read_csv('/kaggle/input/bostonhousing/BostonHousing.csv')
+df.head()
+
+
+new_column_names = [
+    "crime_Rate",
+    "zoned_Land",
+    "industrial_Acres",
+    "river_Proximity",
+    "nitric_Oxides",
+    "rooms_per_dwelling",
+    "age_of_house",
+    "employment_Distance",
+    "highway_Accessibility",
+    "property_Tax_Rate",
+    "pupil_teacher_ratio",
+    "black_Residents_Rate",
+    "lower_Status_Population",
+    "median_House_Value"
+
+]
+
+
+# Change column's name
+df1 = pd.DataFrame()
+for a , b in zip(new_column_names , df.columns):
+  df1[a.lower()] = df[b]
+  df.drop(columns=b , inplace=True)
+
+df1.head()
+
+
+#Checking for null values
+df1.isnull().sum()
+
+
+#Checking for dulicated values
+df1.duplicated().sum()
+
+
+df1.describe()
+
+df1['median_house_value'].hist()
+
+plt.title('Median House Value Distribution')
+plt.xlabel('Median House Price (Thousand USD)')
+plt.ylabel('Frequency')
+plt.show()
+
+
+plt.figure(figsize=(8, 6))
+sns.boxplot(x='river_proximity', y='median_house_value', data=df1)
+plt.title('House prices are based on location near Charles river')
+plt.xlabel('Near Charles River (1: Yes, 0: No)')
+plt.ylabel('Median House Price (Thousand USD)')
+plt.show()
+
+
+dfscatter=df1[["rooms_per_dwelling","median_house_value"]]
+plt.scatter(dfscatter['rooms_per_dwelling'], dfscatter['median_house_value'], color='cornflowerblue')
+
+plt.title('House Price Based On Number Of Rooms')
+plt.xlabel('Room Per Dwelling')
+plt.ylabel('Median House Price (Thousand USD)')
+plt.show()
+
+
+dfscatter=df1[["crime_rate","median_house_value"]]
+plt.scatter(dfscatter['crime_rate'], dfscatter['median_house_value'], color='lightcoral')
+
+plt.title('House Prices Based On Crime Rate')
+plt.xlabel('Crime Rate')
+plt.ylabel('Median House Price (Thousand USD)')
+plt.show()
