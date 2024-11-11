@@ -30,8 +30,7 @@ Context: The data originates from the 1970 U.S. Census and was collected for stu
 
 Size: The dataset consists of 506 samples (data points), with 14 variables in total, including 13 features and one target variable.
 
-
-2. **Data Source**:
+2.**Data Source**
 
 Original Source: The data comes from the 1970 U.S. census and was originally used in statistical research at the StatLib repository, maintained by Carnegie Mellon University.
 
