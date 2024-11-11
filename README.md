@@ -34,7 +34,7 @@ Size: The dataset consists of 506 samples (data points), with 14 variables in to
 
 Original Source: The data comes from the 1970 U.S. census and was originally used in statistical research at the StatLib repository, maintained by Carnegie Mellon University.
 
-Kaggle :https://www.kaggle.com/datasets/krupadharamshi/bostonhousing
+Kaggle: https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fkrupadharamshi%2Fbostonhousing
 
 The dataset consists of 13 numeric features that describe various aspects of housing and the environment. Each feature corresponds to a specific aspect of the neighborhood or house being studied:
 
