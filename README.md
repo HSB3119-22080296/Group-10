@@ -67,6 +67,10 @@ The dataset consists of 13 numeric features that describe various aspects of hou
 Target Variable:
 
 **+MEDV**: Median value of owner-occupied homes in thousands of dollars (the target variable to predict).
+![Screenshot (169)](https://github.com/user-attachments/assets/5205d0a9-9e3a-446a-a638-d7518af68cbe)
+
+![Screenshot (170)](https://github.com/user-attachments/assets/be57e90d-7ddd-493e-bfce-245b402b1070)
+
 
 
 3.**Preparation and Cleaning**
@@ -296,7 +300,23 @@ R-squared (R2): 0.668759493535632: This is the coefficient of determination, ind
 
 4.5.**Logistic Regression**
 
+- From the information of the Correlation Heatmap of Features which present by Quang Anh. We can see that the correlation betwen "nox" and "dis" is -0.77.It indicating a strong negative relationship. This means that as the concentration of nitrogen oxides (nox) increases, the distance to employment centers (dis) tends to decrease, and vice versa.
 
+- The high level of nitrogen oxides are often in urban areas which near the employment centers. And on the other hand, areas with lower pollution levels often in countryside which far from the employment centers. So that I use "nox" and "dis" as Feature (X) and 'Price based on region' ( binary classification based on medv)
+
+- 1 indicates that the property value (medv) is greater than or equal to the median.
+- 0 indicates that the property value (medv) is below the median.
+
+![z6022337402997_e045c3d992235e10cd11abf27e1b1a16](https://github.com/user-attachments/assets/2e73b561-207a-4ee0-b612-59625d168b5f)
+
+- High-Price Areas (Price_based_on_region = 1): Here, nox values are generally moderate to low (0.458, 0.469, 0.524), and dis values are moderate to low (4.0900 to 5.9505). This suggests that high-price areas need not only to be close to job centers but also to have moderate or low pollution levels. When dis is low (closer to the center), a moderate level of pollution may be tolerable for buyers.
+
+- Low-Price Areas (Price_based_on_region = 0): In these areas, dis values are generally higher (6.3467, 6.5921), meaning these locations are farther from job centers, which likely affects home prices more than pollution levels. Some areas with higher nox values, such as 0.538, also tend to have lower prices, especially when dis is high. This aligns with the idea that areas both far from job centers and with high pollution levels attract fewer buyers, resulting in lower prices.
+
+- Conclusion
+DIS plays an important role in determining high or low home prices. When dis is low (closer to job centers), the area is more likely to be classified as high-priced.
+NOX acts as a supplementary factor: when nox is low or moderate in areas closer to job centers (dis is low), home prices are typically higher. The combination of low nox and low dis often leads to higher home prices, whereas high nox and high dis together tend to result in lower prices.
+So the house price in urban areas tends to be higher than house price in countryside.
 
 
    ![ảnh chart5](https://github.com/user-attachments/assets/e31b7556-1816-4b1d-9bff-73d171a996ee)
