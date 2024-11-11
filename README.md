@@ -18,7 +18,7 @@
 
 
 
-1.**Introductions**:
+**1.Introductions**:
 
 
   ![ảnh gth](https://github.com/user-attachments/assets/b649ccb2-294c-44af-9b85-0be884c9c698)
@@ -32,11 +32,11 @@ Context: The data originates from the 1970 U.S. Census and was collected for stu
 
 Size: The dataset consists of 506 samples (data points), with 14 variables in total, including 13 features and one target variable.
 
-2.**Data Source**
+**2.Data Source**
 
 Original Source: The data comes from the 1970 U.S. census and was originally used in statistical research at the StatLib repository, maintained by Carnegie Mellon University.
 
-Kaggle: https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fkrupadharamshi%2Fbostonhousing
+Kaggle:[ https://www.google.com/url?q=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fkrupadharamshi%2Fbostonhousing](https://www.kaggle.com/datasets/krupadharamshi/bostonhousing)
 
 The dataset consists of 13 numeric features that describe various aspects of housing and the environment. Each feature corresponds to a specific aspect of the neighborhood or house being studied:
 
@@ -89,10 +89,10 @@ The preparation and cleaning steps help optimize the data for predicting housing
 'float64': Eleven columns are of type 'float64', meaning they contain numerical values with decimal points. These columns are 'crim', 'zn;, 'indus', 'nox', 'rm', 'age', 'dis', 'ptratio', 'b', 'lstat', and 'medv'.
 'int64': Three columns are of type 'int64', which store integer values. These are 'chas', 'rad', and 'tax'.
 
-4.**Chart**
+**4.Chart**
 
  
-   4.1 **Histogram Matrix**
+   **4.1 Histogram Matrix**
    
 
 
@@ -166,7 +166,7 @@ Some areas have high home values over 50 thousand dollars, but these are rare.
 Understanding these patterns gives us insight into what each area is like in the Boston Housing dataset and helps us see which factors might affect home values (medv).
 
 
-   4.2 **Correlation Heatmap of Features**
+   **4.2 Correlation Heatmap of Features**
 
 
 
@@ -176,7 +176,7 @@ Understanding these patterns gives us insight into what each area is like in the
 
 **Data Analysis and Graphing**:
 
-1. **Heatmap**: This graph displays the correlation coefficients with a colour scale, making it easy to see which relationships are strong and which are weak:
+**1. Heatmap**: This graph displays the correlation coefficients with a colour scale, making it easy to see which relationships are strong and which are weak:
 
 • Red represents a strong positive correlation (close to 1).
 
@@ -184,7 +184,7 @@ Understanding these patterns gives us insight into what each area is like in the
 
 • Values ​​in the middle (close to 0) represent weak or no clear relationship.
 
-2. **Examine the Correlation Coefficients**:
+**2. Examine the Correlation Coefficients**:
 
 **crim** (crime rate):
 
@@ -205,7 +205,7 @@ Understanding these patterns gives us insight into what each area is like in the
 * Negative correlation with lstat(low-status population proportion) (-0.61), indicating that areas with a high proportion of low-income people tend to have fewer rooms per house.
 
 
-3. **Summary**
+**3. Summary**
 
 * Low-status residents and high student-teacher ratios tend to be in areas with low home values.
 
@@ -213,7 +213,7 @@ Understanding these patterns gives us insight into what each area is like in the
 
 * Access to freeways is associated with higher taxes.
 
-4.3 **KNN**
+**4.3 KNN**
 
 
 
@@ -269,7 +269,7 @@ F1-Score: Both groups have high F1-Scores (above 0.8), indicating that the model
 
 * The model provides an overview and performs quite well in classifying house prices as "High" and "Low." The effectiveness of the model shows good results in selecting the six main factors that influence house prices based on medv. However, there are still some errors in predicting the data, with misclassifications possibly occurring due to overlapping characteristics between the two groups or noise in the data.
 
-  4.4.**Linear Regression**
+  **4.4.Linear Regression**
 
 
   
@@ -299,7 +299,7 @@ R-squared (R2): 0.668759493535632: This is the coefficient of determination, ind
 
 +Linearity: The model assumes that the relationship between variables is linear, when in reality the relationship may be more complex.
 
-4.5.**Logistic Regression**
+**4.5.Logistic Regression**
 
 - From the information of the Correlation Heatmap of Features which present by Quang Anh. We can see that the correlation betwen "nox" and "dis" is -0.77.It indicating a strong negative relationship. This means that as the concentration of nitrogen oxides (nox) increases, the distance to employment centers (dis) tends to decrease, and vice versa.
 
@@ -372,7 +372,7 @@ Since the blue curve is mostly above the dotted line, the model performs better 
 - Weaknesses: The model struggles with predicting low prices, as shown by the lower recall for class 0 and a higher number of false positives.
 
 
-5.**Conclusion:**
+**5.Conclusion:**
 
 - Correlation  Between Different Factors: Factor such as  crime rate, population density, tax rate, and pollution levels clearly affect house prices. From the charts, we see that areas with lower crime, closer to the urban center, and houses with more rooms usually have higher home values.
 
@@ -382,8 +382,13 @@ Since the blue curve is mostly above the dotted line, the model performs better 
 
 -> **Overall Conclusion**: The data and charts show that property values depend not just on location but on a mix of environmental and social factors. To predict house prices, it’s important to understand both the market and the specific characteristics of each neighborhood.
 
+**6.Reference**
 
+**Data Source on Kaggle**:https://www.kaggle.com/datasets/krupadharamshi/bostonhousing/data'
 
+**Kaggle Other Respositories**: https://www.kaggle.com/datasets/krupadharamshi/bostonhousing/code
+
+**Educational Materials: HSB3119_ Theory Sumarry**: provideed by Dr.Emmanuel Plan guided class MAS2
 
 
 
