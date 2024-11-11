@@ -3,7 +3,7 @@
 * Lecturer : Dr. Emmanuel Lance Christopher VI M. Plan
 *  Evaluation Of Teamwork
   
- | Tên        | Mã Sinh Viên  | Task Done| Evaluation|
+ | Name        | Student's Code | Task Done| Evaluation|
  |:-----------|-----:|---|---|
  | Nguyễn Quang Anh   | 22080296   | Correlation Heatmap of Features chart| 100%|
  | Triệu Anh  | 22080299   | KNN model & slide| 100%|
