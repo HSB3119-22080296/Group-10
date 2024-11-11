@@ -8,7 +8,7 @@
  | Nguyễn Quang Anh   | 22080296   | Correlation Heatmap of Features chart| 100%|
  | Triệu Anh  | 22080299   | KNN model & slide| 100%|
  | Nguyễn Tú Anh  | 22080346   | Introduction, Data Source,Preparation and Cleaning & Conclusion|100%|
- | Lê Quý Quỳnh Chi  | 22080305   | Logistic Regression|100%|
+ | Lê Quý Quỳnh Chi (leader)| 22080305   | Logistic Regression|100%|
  | Nguyễn Khánh Duy   | 22080310   | Liner Regression and slide|100%|
  | Nguyễn Hải Đăng  | 22080307   | Histogram chart|100%|
 
