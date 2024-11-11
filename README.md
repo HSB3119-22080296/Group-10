@@ -320,7 +320,8 @@ NOX acts as a supplementary factor: when nox is low or moderate in areas closer 
 So the house price in urban areas tends to be higher than house price in countryside.
 
 
-   ![ảnh chart5](https://github.com/user-attachments/assets/e31b7556-1816-4b1d-9bff-73d171a996ee)
+![Screenshot (166)](https://github.com/user-attachments/assets/15f9cac4-ab37-4494-ac2f-e2669b6e91e2)
+
 
    
 - The accuracy of the model is approximately 68.63%. This means that the model correctly classifies 68.63% of the test samples
