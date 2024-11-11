@@ -3,14 +3,14 @@
 * Lecturer : Emanuelplan
 * Members of group :
   
-| Tên        | Mã Sinh Viên  | 
-|:-----------|-----:|
-| Nguyễn Quang Anh   | 22080296   | 
-| Triệu Anh  | 22080299   | 
-| Nguyễn Tú Anh  | 22080346   | 
-| Lê Quý Quỳnh Chi  | 22080305   | 
-| Nguyễn Khánh Duy   | 22080310   | 
-| Nguyễn Hải Đăng  | 22080307   | 
+ | Tên        | Mã Sinh Viên  | 
+ |:-----------|-----:|
+ | Nguyễn Quang Anh   | 22080296   | 
+ | Triệu Anh  | 22080299   | 
+ | Nguyễn Tú Anh  | 22080346   | 
+ | Lê Quý Quỳnh Chi  | 22080305   | 
+ | Nguyễn Khánh Duy   | 22080310   | 
+ | Nguyễn Hải Đăng  | 22080307   | 
 
 
 
@@ -69,10 +69,25 @@ Target Variable:
 **+MEDV**: Median value of owner-occupied homes in thousands of dollars (the target variable to predict).
 
 
+3.**Preparation and Cleaning**
 
-3. **Chart**
+The preparation and cleaning steps help optimize the data for predicting housing prices based on features like **crim** (crime rate), **rm** (number of rooms), **age** (building age), **chas** (location near the Charles River), **dis** (distance to employment centers), and others. This enables the model to accurately learn relationships between the features and housing prices, thus making reliable predictions for prices in various areas.
+
+**Shape and Data Overview**
+- Total Entries: There are 506 rows, indicating 506 observations or instances in the dataset.
+- Total Columns: There are 14 columns, representing different features or variables that can help in predicting housing prices.
+
+**Column Names and Data Types**
+- The columns are labeled from crim to medv. All of them has '506 non-null' values, so that there are no missing values in this dataset, which simplifies the data preparation process.
+- Data Types:
+'float64': Eleven columns are of type 'float64', meaning they contain numerical values with decimal points. These columns are 'crim', 'zn;, 'indus', 'nox', 'rm', 'age', 'dis', 'ptratio', 'b', 'lstat', and 'medv'.
+'int64': Three columns are of type 'int64', which store integer values. These are 'chas', 'rad', and 'tax'.
+
+
+
+4. **Chart**
  
-   3.1 **Histogram Matrix**
+   4.1 **Histogram Matrix**
    
 
 
@@ -146,7 +161,7 @@ Some areas have high home values over 50 thousand dollars, but these are rare.
 Understanding these patterns gives us insight into what each area is like in the Boston Housing dataset and helps us see which factors might affect home values (medv).
 
 
-   3.2 **Correlation Heatmap of Features**
+   4.2 **Correlation Heatmap of Features**
 
 
 
