@@ -1,16 +1,18 @@
 **Group 10 _ Boston Housing Dataset**
 * Subject: Data Science
-* Lecturer : Emanuelplan
-* Members of group :
+* Lecturer : Dr. Emmanuel Lance Christopher VI M. Plan
+*  Evaluation Of Teamwork
   
- | Tên        | Mã Sinh Viên  | 
- |:-----------|-----:|
- | Nguyễn Quang Anh   | 22080296   | 
- | Triệu Anh  | 22080299   | 
- | Nguyễn Tú Anh  | 22080346   | 
- | Lê Quý Quỳnh Chi  | 22080305   | 
- | Nguyễn Khánh Duy   | 22080310   | 
- | Nguyễn Hải Đăng  | 22080307   | 
+ | Tên        | Mã Sinh Viên  | Task Done| Evaluation|
+ |:-----------|-----:|---|---|
+ | Nguyễn Quang Anh   | 22080296   | Correlation Heatmap of Features chart| 100%|
+ | Triệu Anh  | 22080299   | KNN model & slide| 100%|
+ | Nguyễn Tú Anh  | 22080346   | Introduction, Data Source,Preparation and Cleaning & Conclusion|100%|
+ | Lê Quý Quỳnh Chi  | 22080305   | Logistic Regression|100%|
+ | Nguyễn Khánh Duy   | 22080310   | Liner Regression and slide|100%|
+ | Nguyễn Hải Đăng  | 22080307   | Histogram chart|100%|
+
+
 
 
 
