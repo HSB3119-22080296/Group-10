@@ -89,7 +89,7 @@ The preparation and cleaning steps help optimize the data for predicting housing
 
 
 
-4. **Chart**
+4.**Chart**
  
    4.1 **Histogram Matrix**
    
