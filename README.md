@@ -87,9 +87,8 @@ The preparation and cleaning steps help optimize the data for predicting housing
 'float64': Eleven columns are of type 'float64', meaning they contain numerical values with decimal points. These columns are 'crim', 'zn;, 'indus', 'nox', 'rm', 'age', 'dis', 'ptratio', 'b', 'lstat', and 'medv'.
 'int64': Three columns are of type 'int64', which store integer values. These are 'chas', 'rad', and 'tax'.
 
-
-
 4.**Chart**
+
  
    4.1 **Histogram Matrix**
    
