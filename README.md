@@ -10,7 +10,7 @@
  | Nguyễn Tú Anh  | 22080346 | Introduction, Data Source,Preparation and Cleaning & Conclusion|--|100%|
  | Lê Quý Quỳnh Chi (Leader)| 22080305 | Logistic Regression|--|100%|
  | Nguyễn Khánh Duy   | 22080310 | Liner Regression and slide|--  |100%|
- | Nguyễn Hải Đăng  | 22080307  | Histogram chart|--  |100%|
+ | Nguyễn Hải Đăng  | 22080307  | Histogram chart|--  |95%|
 
 
 
