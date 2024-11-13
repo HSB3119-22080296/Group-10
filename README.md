@@ -303,7 +303,7 @@ R-squared (R2): 0.668759493535632: This is the coefficient of determination, ind
 
 - From the information of the Correlation Heatmap of Features which present by Quang Anh. We can see that the correlation betwen "nox" and "dis" is -0.77.It indicating a strong negative relationship. This means that as the concentration of nitrogen oxides (nox) increases, the distance to employment centers (dis) tends to decrease, and vice versa.
 
-- The high level of nitrogen oxides are often in urban areas which near the employment centers. And on the other hand, areas with lower pollution levels often in countryside which far from the employment centers. So that I use "nox" and "dis" as Feature (X) and 'Price based on region' ( binary classification based on medv)
+- The high level of nitrogen oxides are often in urban areas which near the employment centers. And on the other hand, areas with lower pollution levels often in countryside which far from the employment centers. So that I use "nox" and "dis" as Feature (X) and 'Price based on region' ( binary classification based on medv) as Target (Y)
 
 - 1 indicates that the property value (medv) is greater than or equal to the median.
 - 0 indicates that the property value (medv) is below the median.
