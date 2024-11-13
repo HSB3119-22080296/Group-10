@@ -299,7 +299,21 @@ R-squared (R2): 0.668759493535632: This is the coefficient of determination, ind
 
 +Linearity: The model assumes that the relationship between variables is linear, when in reality the relationship may be more complex.
 
-**4.5.Logistic Regression**
+**4.5. OLS Regression**
+![Screenshot (174)](https://github.com/user-attachments/assets/ff4585cf-cbdf-4d98-8bb5-d7b008017b0a)
+
+
+Based on the OLS regression results, our model provides valuable insights into the factors influencing sales amount (Amount). The R-squared value of 0.765 implies that approximately 76.5% of the variability in sales can be explained by the features in the model, such as Crim,Zn,Indus, Chas, Nox, Rm, Age, Dis, Rad, Tax,Ptratio, B and Lstat. This suggests a good fit. Adjusted R-squared: 0.756 is slightly lower for the number of predictors in the model, indicating that the model remains robust even with multiple variables.F-statistic: 84.92 with a p-value of 2.76e-98 indicates that the overall model is statistically significant. This means at least one predictor variable is significantly related to the dependent variable.
+
+- Intercept (const): 37.9371 suggests that when all predictors are zero, the expected median home value is approximately 37.94 (though this may not have a practical interpretation). Key Predictors: crim: Coefficient of -0.1213 indicates that an increase in crime rate is associated with a decrease in home value. rm: Coefficient of 3.8591 shows that each additional room increases the median home value significantly. nox: Coefficient of -16.2313 suggests that higher nitrogen oxide levels are strongly associated with lower home values. lstat: Coefficient of -0.4867 indicates that a higher percentage of lower status population correlates with lower home values.
+
+- Durbin-Watson statistic of 2.019 suggests that there is no significant autocorrelation in the residuals (values close to 2 indicate no autocorrelation).Omnibus and Jarque-Bera tests indicate that the residuals may not be normally distributed (high skewness and kurtosis), which could affect the validity of the model’s statistical tests. ->These non-ideal residual characteristics suggest that the model could be further improved, perhaps by transforming the data or exploring additional interaction terms to better capture variability in high sales amounts.
+
+- The Condition Number of 1.52e+04 suggests potential multicollinearity issues among the predictors, which could affect the stability of the coefficient estimates.
+
+- The OLS regression results indicate a strong relationship between several predictors and the median home value. The model explains a significant portion of the variance in medv, and many predictors are statistically significant. However, attention should be given to the potential multicollinearity and the distribution of residuals, which could impact the reliability of the model.
+
+**4.6.Logistic Regression**
 
 - From the information of the Correlation Heatmap of Features which present by Quang Anh. We can see that the correlation betwen "nox" and "dis" is -0.77.It indicating a strong negative relationship. This means that as the concentration of nitrogen oxides (nox) increases, the distance to employment centers (dis) tends to decrease, and vice versa.
 
